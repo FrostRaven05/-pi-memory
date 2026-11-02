@@ -1,0 +1,15 @@
+TAP version 13
+# Subtest: persistent CRUD, isolation, stale sources and exact revisions
+ok 1 - persistent CRUD, isolation, stale sources and exact revisions
+  ---
+  duration_ms: 125.4585
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 233.6126

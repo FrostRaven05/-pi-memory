@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "project_id": "2f46ccca3a6dcc1c82a8cef5cde225180881792c206083798b2dbdf10196f1b2",
+  "records": {
+    "session-test-entry": {
+      "id": "session-test-entry",
+      "project_id": "2f46ccca3a6dcc1c82a8cef5cde225180881792c206083798b2dbdf10196f1b2",
+      "title": "login_demo 会话测试入口与最近一次真实运行结果",
+      "content": "测试文件（实际路径）：D:\\\\Project\\\\学习\\\\第四章\\\\submission\\\\login_demo\\\\tests\\\\test_session.py（项目相对路径 tests/test_session.py）。\n运行入口命令：python -m pytest tests/test_session.py -q\n实际解释器：D:\\\\Project\\\\学习\\\\第三章\\\\.venv\\\\Scripts\\\\python.exe\n最近一次 session_verify 运行时间：2026-11-02T03:10:26.751Z\n实际退出码：0\n结果：10 passed in 0.02s（10 个测试全部通过）。\n说明：该结果仅来自 session_verify 的真实退出码 0；测试覆盖到期边界、TTL 续期、令牌签发/篡改、touch 与未知令牌，以及 logout 仍抛 NotImplementedError 的现状。未修改源码或文档。\n测试文件哈希：3a4f80436692a4b02df4a469cf32160502015e8e2c4b2b3aa5f7fb54e310fb7b",
+      "sources": [
+        {
+          "path": "tests/test_session.py",
+          "sha256": "3a4f80436692a4b02df4a469cf32160502015e8e2c4b2b3aa5f7fb54e310fb7b"
+        },
+        {
+          "path": "docs/testing-guide.md",
+          "sha256": "519a326404a0b879dd1df320f635d3eac5d614a4cc484b9936c670f913c1a514"
+        },
+        {
+          "path": "artifacts/session-tests.json",
+          "sha256": "384a4ac0693eaf2ff4cf2ee56bba41b1f96472d6cc5b1e9205df1a69c57b0a46"
+        }
+      ],
+      "verification": {
+        "exit_code": 0,
+        "command": "python -m pytest tests/test_session.py -q",
+        "tested_at": "2026-11-02T03:10:26.751Z"
+      },
+      "revision": 1,
+      "checked_at": "2026-11-02T03:10:30.038Z"
+    }
+  },
+  "history": [
+    {
+      "action": "write",
+      "id": "session-test-entry",
+      "at": "2026-11-02T03:10:30.038Z",
+      "before": null,
+      "after": {
+        "id": "session-test-entry",
+        "project_id": "2f46ccca3a6dcc1c82a8cef5cde225180881792c206083798b2dbdf10196f1b2",
+        "title": "login_demo 会话测试入口与最近一次真实运行结果",
+        "content": "测试文件（实际路径）：D:\\\\Project\\\\学习\\\\第四章\\\\submission\\\\login_demo\\\\tests\\\\test_session.py（项目相对路径 tests/test_session.py）。\n运行入口命令：python -m pytest tests/test_session.py -q\n实际解释器：D:\\\\Project\\\\学习\\\\第三章\\\\.venv\\\\Scripts\\\\python.exe\n最近一次 session_verify 运行时间：2026-11-02T03:10:26.751Z\n实际退出码：0\n结果：10 passed in 0.02s（10 个测试全部通过）。\n说明：该结果仅来自 session_verify 的真实退出码 0；测试覆盖到期边界、TTL 续期、令牌签发/篡改、touch 与未知令牌，以及 logout 仍抛 NotImplementedError 的现状。未修改源码或文档。\n测试文件哈希：3a4f80436692a4b02df4a469cf32160502015e8e2c4b2b3aa5f7fb54e310fb7b",
+        "sources": [
+          {
+            "path": "tests/test_session.py",
+            "sha256": "3a4f80436692a4b02df4a469cf32160502015e8e2c4b2b3aa5f7fb54e310fb7b"
+          },
+          {
+            "path": "docs/testing-guide.md",
+            "sha256": "519a326404a0b879dd1df320f635d3eac5d614a4cc484b9936c670f913c1a514"
+          },
+          {
+            "path": "artifacts/session-tests.json",
+            "sha256": "384a4ac0693eaf2ff4cf2ee56bba41b1f96472d6cc5b1e9205df1a69c57b0a46"
+          }
+        ],
+        "verification": {
+          "exit_code": 0,
+          "command": "python -m pytest tests/test_session.py -q",
+          "tested_at": "2026-11-02T03:10:26.751Z"
+        },
+        "revision": 1,
+        "checked_at": "2026-11-02T03:10:30.038Z"
+      }
+    }
+  ]
+}

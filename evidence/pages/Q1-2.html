@@ -1,0 +1,37 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>第一题：全新会话读取与核对</title><style>*{box-sizing:border-box}body{margin:0;background:#f3f5f8;color:#172033;font:17px "Microsoft YaHei",sans-serif;padding:36px 48px}header{border-bottom:2px solid #1d5e75;margin-bottom:20px;padding-bottom:15px}h1{font-size:30px;margin:8px 0}h2{font-size:18px;color:#1d5e75;margin:0 0 10px}p{margin:7px 0;color:#516176}section{background:white;border:1px solid #dce3eb;border-radius:10px;padding:18px 22px;margin:12px 0}pre{font:15px/1.55 "Microsoft YaHei",monospace;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}table{width:100%;border-collapse:collapse;font-size:14px}td,th{text-align:left;border-bottom:1px solid #e4e8ef;padding:8px;vertical-align:top}.pill{color:#fff;background:#1d5e75;padding:4px 12px;border-radius:15px;font-size:13px}footer{font-size:13px;color:#667285;margin-top:16px}.columns{display:grid;grid-template-columns:1fr 1fr;gap:14px}th:first-child{width:52px;white-space:nowrap}</style><header><span class="pill">第四章作业 · 实际运行记录</span><h1>第一题：全新会话读取与核对</h1><p>DeepSeek 真实模型决策 · 项目内持久存储 · 原始会话文件可追溯</p></header><section><h2>真实调用</h2><pre>pi 独立会话：01a19a3d-4e24-7475-9ed7-5d91c0dc0757
+进程退出码：0
+memory_search → memory_read → read → read → read</pre></section><section><h2>持久化记录</h2><pre>记录：session-test-entry   revision：1
+保存路径：D:\Project\学习\第四章\submission\login_demo\.memory\records.json
+命令：python -m pytest tests/test_session.py -q
+记录的测试退出码：0
+来源：tests/test_session.py  sha256=3a4f80436692a4b0…
+docs/testing-guide.md  sha256=519a326404a0b879…
+artifacts/session-tests.json  sha256=384a4ac0693eaf2f…</pre></section><section><h2>来源与当前文件对比</h2><pre>tests/test_session.py：存在=True，哈希一致=True
+docs/testing-guide.md：存在=True，哈希一致=True
+artifacts/session-tests.json：存在=True，哈希一致=True
+本轮没有 session_verify 调用；测试通过记录来自前一会话。</pre></section><section><h2>pi 回答（原文节选）</h2><pre>## 检索结果
+
+**记忆记录**: `session-test-entry`（revision 1）  
+**标题**: login_demo 会话测试入口与最近一次真实运行结果
+
+### 来源与核对
+
+| 来源路径 | 存在 | 与记录哈希一致 |
+|---|---|---|
+| `tests/test_session.py` | ✅ 是 | ✅ 未变化（3a4f8043…） |
+| `docs/testing-guide.md` | ✅ 是 | ✅ 未变化（519a3264…） |
+| `artifacts/session-tests.json` | ✅ 是 | ✅ 未变化（384a4ac0…） |
+
+### 命令
+
+```bash
+python -m pytest tests/test_session.py -q
+```
+
+- 记录中的实际解释器：`D:\Project\学习\第三章\.venv\Scripts\python.exe`
+- 记录中的最近一次真实运行：`2026-11-02T03:10:26.751Z`，退出码 `0`，输出 `10 passed in 0.02s`
+
+### 文件内容一致性
+
+- ✅ 测试文件实际存在，共 8 个测试函数；其中 `test_expire_boundary` 参数化为 3 个用例，合计 **10 个用例**，与记录的 `10 p
+……完整回答见 evidence/memory/b/summary.json</pre></section><footer>本页由保存的 JSON / JSONL 回执生成；完整原始记录随提交包提供。截图为运行记录页面，不是 pi 聊天界面。</footer></html>

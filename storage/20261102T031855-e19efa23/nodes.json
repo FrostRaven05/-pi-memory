@@ -1,0 +1,242 @@
+[
+  {
+    "id_": "fd908e676c15cd86d2a4a4f796d747fd79f4979b5b59d6347f6cbdb37a74ea5b",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/faq.md",
+      "heading": "用户反馈\"登录状态老是掉\"",
+      "source_hash": "3c18c85443699f455653a3a957056df06676b2ad2a9def48c744ae9381d7b840",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "常见问题（FAQ）\n用户反馈\"登录状态老是掉\"\n1. 先确认会话有效期配置是否被改过，默认 20 分钟。\n2. 再看是不是恰好卡在到期时刻被判定为无效，检查边界用例。\n3. 最后确认前端是否在响应里正确保存了新的令牌。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  },
+  {
+    "id_": "6ceb5226b5ab0857ad51ced277849da1e191727c69c90460935fd060ce0c49a1",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/faq.md",
+      "heading": "能否把有效期改长一点",
+      "source_hash": "3c18c85443699f455653a3a957056df06676b2ad2a9def48c744ae9381d7b840",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "常见问题（FAQ）\n能否把有效期改长一点\n- 可以，但需要产品确认。修改前先读 `docs/session-rules.md`，不要直接改代码常量。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  },
+  {
+    "id_": "ca371ca1dbb93473e9bb6850d099b55e15d81dd2f0754b6a8682e0ac7b7dda43",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/faq.md",
+      "heading": "忘记测试命令怎么办",
+      "source_hash": "3c18c85443699f455653a3a957056df06676b2ad2a9def48c744ae9381d7b840",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "常见问题（FAQ）\n忘记测试命令怎么办\n- 见 `docs/testing-guide.md`，入口是 `python -m pytest tests/auth/test_session.py -q`。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  },
+  {
+    "id_": "3fd0467446735049b37492cceb6f211012d3484fdfbe0762dd36c530b0a40225",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/session-rules.md",
+      "heading": "登录会话有效期规则",
+      "source_hash": "4708a8b0496597f05c2754374eee7ea4ad3822f7b76decfb1a014ddfda51f140",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "登录会话有效期规则\n登录会话有效期规则\n适用服务：login_demo 登录服务。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  },
+  {
+    "id_": "1a0f9e94267bdaea83650ad33402b34be0ab2fab36268b146025ba01c755f43f",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/session-rules.md",
+      "heading": "有效期长度",
+      "source_hash": "4708a8b0496597f05c2754374eee7ea4ad3822f7b76decfb1a014ddfda51f140",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "登录会话有效期规则\n有效期长度\n- 管理后台的登录会话有效期为 20 分钟。\n- 计时方式：从签发时刻开始计算，20 分钟后到期。\n- 空闲会话不自动续期，必须由用户请求触发刷新。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  },
+  {
+    "id_": "e8d5e71df305f882c961407dd5a4eaf79e4076221b8c101591d470a41f6e7d21",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/session-rules.md",
+      "heading": "到期边界",
+      "source_hash": "4708a8b0496597f05c2754374eee7ea4ad3822f7b76decfb1a014ddfda51f140",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "登录会话有效期规则\n到期边界\n- 项目约定：当前时刻恰好等于到期时刻时，会话必须判定为无效。\n- 也就是说，`now == expires_at` 属于已过期。\n- 实现上有效条件写作 `now < expires_at`，不要写成 `now <= expires_at`。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  },
+  {
+    "id_": "bdc44d61d37d0b64f0a4a359ed2bcbc876f0f81e76d0a019f9be195e32548733",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/session-rules.md",
+      "heading": "续期",
+      "source_hash": "4708a8b0496597f05c2754374eee7ea4ad3822f7b76decfb1a014ddfda51f140",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "登录会话有效期规则\n续期\n- 用户发起请求后，服务在响应返回前刷新 `expires_at`。\n- 新的到期时间 = 请求到达时刻 + 20 分钟。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  },
+  {
+    "id_": "0c2b5e3887e7fd595ca6f4848ec0d13544165bbadefdcb291b9316f8619ccc4d",
+    "embedding": null,
+    "metadata": {
+      "file_path": "docs/session-rules.md",
+      "heading": "不适用范围",
+      "source_hash": "4708a8b0496597f05c2754374eee7ea4ad3822f7b76decfb1a014ddfda51f140",
+      "project_id": "login_demo",
+      "generation": "20261102T031855-e19efa23"
+    },
+    "excluded_embed_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "excluded_llm_metadata_keys": [
+      "source_hash",
+      "generation",
+      "project_id"
+    ],
+    "relationships": {},
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "登录会话有效期规则\n不适用范围\n- 本节规则只约束登录会话，不适用于支付会话、匿名浏览会话。",
+    "mimetype": "text/plain",
+    "start_char_idx": null,
+    "end_char_idx": null,
+    "text_template": "{metadata_str}\n\n{content}",
+    "class_name": "TextNode"
+  }
+]

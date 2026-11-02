@@ -1,0 +1,1 @@
+读取当前项目 tests/test_session.py 和 docs/testing-guide.md，调用 session_verify 运行测试。把实际测试路径、运行命令和测试结果保存到项目长期记忆，ID 使用 session-test-entry，sources 包含测试文件、测试说明和 artifacts/session-tests.json。请实际调用 memory_write，返回保存路径和来源。不要修改源码或文档。

@@ -1,0 +1,31 @@
+{
+  "generation": "20261102T031855-e19efa23",
+  "embedding_model": "BAAI/bge-small-zh-v1.5",
+  "dimension": 512,
+  "node_ids": [
+    "fd908e676c15cd86d2a4a4f796d747fd79f4979b5b59d6347f6cbdb37a74ea5b",
+    "6ceb5226b5ab0857ad51ced277849da1e191727c69c90460935fd060ce0c49a1",
+    "ca371ca1dbb93473e9bb6850d099b55e15d81dd2f0754b6a8682e0ac7b7dda43",
+    "3fd0467446735049b37492cceb6f211012d3484fdfbe0762dd36c530b0a40225",
+    "1a0f9e94267bdaea83650ad33402b34be0ab2fab36268b146025ba01c755f43f",
+    "e8d5e71df305f882c961407dd5a4eaf79e4076221b8c101591d470a41f6e7d21",
+    "bdc44d61d37d0b64f0a4a359ed2bcbc876f0f81e76d0a019f9be195e32548733",
+    "0c2b5e3887e7fd595ca6f4848ec0d13544165bbadefdcb291b9316f8619ccc4d"
+  ],
+  "node_count": 8,
+  "sources": {
+    "docs/faq.md": "3c18c85443699f455653a3a957056df06676b2ad2a9def48c744ae9381d7b840",
+    "docs/session-rules.md": "4708a8b0496597f05c2754374eee7ea4ad3822f7b76decfb1a014ddfda51f140"
+  },
+  "tokenizer": "jieba.lcut(lowercase)",
+  "built_at": "2026-11-02T03:18:56.631573+00:00",
+  "files": {
+    "bm25.json": "8b05c072c2d582f31026d0f9aaa652b1063a5cbf21e82d77f37a04f95be7d4e7",
+    "nodes.json": "3ef295d8375f9843ffb2bed3a2b4edec538401f832fb0b9662125d69a7a69c18",
+    "vector/default__vector_store.json": "c4ed179dadc795b1d185f9396e044c279d265adce8442e769c9dbdca5674390f",
+    "vector/docstore.json": "07c653ad75bc2d565a85131ea62c6ca6042a9258444eb789e2e0a09d38942357",
+    "vector/graph_store.json": "8e0a77744010862225c69da83c585f4f8a42fd551b044ce530dbb1eb6e16742c",
+    "vector/image__vector_store.json": "d17ed74c1649a438e518a8dc56a7772913dfe1ea7a7605bce069c63872431455",
+    "vector/index_store.json": "fc089765e51ed9098b779df2129969d440637e6bd7aad3f39bfb8186587f47eb"
+  }
+}

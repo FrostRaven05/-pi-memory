@@ -1,0 +1,28 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>第一题：写入项目长期记忆</title><style>*{box-sizing:border-box}body{margin:0;background:#f3f5f8;color:#172033;font:17px "Microsoft YaHei",sans-serif;padding:36px 48px}header{border-bottom:2px solid #1d5e75;margin-bottom:20px;padding-bottom:15px}h1{font-size:30px;margin:8px 0}h2{font-size:18px;color:#1d5e75;margin:0 0 10px}p{margin:7px 0;color:#516176}section{background:white;border:1px solid #dce3eb;border-radius:10px;padding:18px 22px;margin:12px 0}pre{font:15px/1.55 "Microsoft YaHei",monospace;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}table{width:100%;border-collapse:collapse;font-size:14px}td,th{text-align:left;border-bottom:1px solid #e4e8ef;padding:8px;vertical-align:top}.pill{color:#fff;background:#1d5e75;padding:4px 12px;border-radius:15px;font-size:13px}footer{font-size:13px;color:#667285;margin-top:16px}.columns{display:grid;grid-template-columns:1fr 1fr;gap:14px}th:first-child{width:52px;white-space:nowrap}</style><header><span class="pill">第四章作业 · 实际运行记录</span><h1>第一题：写入项目长期记忆</h1><p>DeepSeek 真实模型决策 · 项目内持久存储 · 原始会话文件可追溯</p></header><section><h2>真实调用</h2><pre>pi 独立会话：01a19a3c-9338-79d7-91c4-2e1108b0b6b2
+进程退出码：0
+memory_search → read → read → session_verify → read → memory_write</pre></section><section><h2>持久化记录</h2><pre>记录：session-test-entry   revision：1
+保存路径：D:\Project\学习\第四章\submission\login_demo\.memory\records.json
+命令：python -m pytest tests/test_session.py -q
+记录的测试退出码：0
+来源：tests/test_session.py  sha256=3a4f80436692a4b0…
+docs/testing-guide.md  sha256=519a326404a0b879…
+artifacts/session-tests.json  sha256=384a4ac0693eaf2f…</pre></section><section><h2>实际测试</h2><pre>..........                                                               [100%]
+10 passed in 0.02s
+</pre></section><section><h2>pi 回答（原文）</h2><pre>已完成测试运行并保存到项目长期记忆。
+
+**保存位置**
+- `D:\Project\学习\第四章\submission\login_demo\.memory\records.json`
+- 记忆 ID：`session-test-entry`（revision 1）
+
+**记录内容**
+- 测试路径：`tests/test_session.py`（实际：`D:\Project\学习\第四章\submission\login_demo\tests\test_session.py`）
+- 运行命令：`python -m pytest tests/test_session.py -q`
+- 解释器：`D:\Project\学习\第三章\.venv\Scripts\python.exe`
+- 结果：`session_verify` 实际退出码 **0**，`10 passed in 0.02s`
+
+**来源**
+- `tests/test_session.py`（sha256 `3a4f8043...`）
+- `docs/testing-guide.md`（sha256 `519a3264...`）
+- `artifacts/session-tests.json`（sha256 `384a4ac0...`）
+
+未修改任何源码或文档。</pre></section><footer>本页由保存的 JSON / JSONL 回执生成；完整原始记录随提交包提供。截图为运行记录页面，不是 pi 聊天界面。</footer></html>

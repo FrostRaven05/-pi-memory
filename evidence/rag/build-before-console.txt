@@ -1,0 +1,31 @@
+
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+D:\Project\学习\第四章\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in D:\Project\学习\第四章\.model-cache. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+D:\Project\学习\第四章\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in D:\Project\学习\第四章\.model-cache\models--Qdrant--bge-small-zh-v1.5. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+
+Fetching 5 files:  20%|██        | 1/5 [00:00<00:02,  1.38it/s]
+Fetching 5 files:  40%|████      | 2/5 [00:01<00:01,  1.59it/s]
+Fetching 5 files:  80%|████████  | 4/5 [00:01<00:00,  2.56it/s]
+Fetching 5 files: 100%|██████████| 5/5 [00:10<00:00,  2.88s/it]
+Fetching 5 files: 100%|██████████| 5/5 [00:10<00:00,  2.04s/it]
+{
+  "generation": "20261102T031719-d6ea49c5",
+  "node_count": 8,
+  "embedding_model": "BAAI/bge-small-zh-v1.5",
+  "dimension": 512,
+  "storage": "D:\\Project\\学习\\第四章\\submission\\storage\\20261102T031719-d6ea49c5",
+  "sample": {
+    "node_id": "a9951e0629207d69cee43404879bd69f40f2e97c2d20b15e0c0a92f677506404",
+    "score": 0.0,
+    "file_path": "docs/session-rules.md",
+    "heading": "有效期长度",
+    "source_hash": "bfa3dbaa5c7b1df408032cc94bb23745ddc5afaa0aa10b3eefb7afab6c4bccdb",
+    "project_id": "login_demo",
+    "generation": "20261102T031719-d6ea49c5",
+    "text": "登录会话有效期规则\n有效期长度\n- 管理后台的登录会话有效期为 30 分钟。\n- 计时方式：从签发时刻开始计算，30 分钟后到期。\n- 空闲会话不自动续期，必须由用户请求触发刷新。"
+  }
+}

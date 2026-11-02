@@ -1,0 +1,7 @@
+llama-index-core
+fastembed
+jieba
+rank-bm25
+openai
+pytest
+pillow

@@ -1,0 +1,21 @@
+{
+  "changed": [
+    "docs/session-rules.md",
+    "docs/faq.md"
+  ],
+  "generation": "20261102T031855-e19efa23",
+  "node_count": 8,
+  "embedding_model": "BAAI/bge-small-zh-v1.5",
+  "dimension": 512,
+  "storage": "D:\\Project\\学习\\第四章\\submission\\storage\\20261102T031855-e19efa23",
+  "sample": {
+    "node_id": "1a0f9e94267bdaea83650ad33402b34be0ab2fab36268b146025ba01c755f43f",
+    "score": 0.0,
+    "file_path": "docs/session-rules.md",
+    "heading": "有效期长度",
+    "source_hash": "4708a8b0496597f05c2754374eee7ea4ad3822f7b76decfb1a014ddfda51f140",
+    "project_id": "login_demo",
+    "generation": "20261102T031855-e19efa23",
+    "text": "登录会话有效期规则\n有效期长度\n- 管理后台的登录会话有效期为 20 分钟。\n- 计时方式：从签发时刻开始计算，20 分钟后到期。\n- 空闲会话不自动续期，必须由用户请求触发刷新。"
+  }
+}

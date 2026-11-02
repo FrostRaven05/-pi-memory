@@ -1,0 +1,20 @@
+[
+  {
+    "submission": "login_demo/app/auth.py",
+    "course_source": "week04/4-4/corpus/app/auth.py",
+    "sha256": "6f62febaf33bf1292fee20dadf55c8c59ca92589f09bd5b20d90ca1867889442",
+    "unchanged": true
+  },
+  {
+    "submission": "login_demo/app/config.py",
+    "course_source": "week04/4-4/corpus/app/config.py",
+    "sha256": "b8ca51f475a15369ba3574ddd6d05f5f24c91417b813dd9edfeed9065e47a4f4",
+    "unchanged": true
+  },
+  {
+    "submission": "login_demo/app/session.py",
+    "course_source": "week04/4-4/corpus/app/session.py",
+    "sha256": "9eec7917294a60b522ed758edabdabca6e56f50299837772781453eedbfc2c94",
+    "unchanged": true
+  }
+]

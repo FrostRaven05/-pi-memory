@@ -1,0 +1,13 @@
+{
+  "command": "python -m pytest tests/test_session.py -q",
+  "interpreter": "D:\\Project\\学习\\第三章\\.venv\\Scripts\\python.exe",
+  "exit_code": 0,
+  "tested_at": "2026-11-02T03:10:26.751Z",
+  "output": "..........                                                               [100%]\r\n10 passed in 0.02s\r\n",
+  "source_hashes": {
+    "app/session.py": "9eec7917294a60b522ed758edabdabca6e56f50299837772781453eedbfc2c94",
+    "app/auth.py": "6f62febaf33bf1292fee20dadf55c8c59ca92589f09bd5b20d90ca1867889442",
+    "app/config.py": "b8ca51f475a15369ba3574ddd6d05f5f24c91417b813dd9edfeed9065e47a4f4",
+    "tests/test_session.py": "3a4f80436692a4b02df4a469cf32160502015e8e2c4b2b3aa5f7fb54e310fb7b"
+  }
+}

@@ -1,0 +1,1 @@
+先读取当前项目长期记忆中的会话测试入口。然后调用 session_migrate 将测试迁移到 tests/auth/test_session.py 并同步说明，调用 session_verify 运行新测试命令。根据真实结果用 memory_update 更新原记录 session-test-entry，sources 使用迁移后的文件、docs/testing-guide.md 和 artifacts/session-tests.json。最后 memory_read 核对新版本。不要修改业务源码或测试断言。

@@ -1,0 +1,1 @@
+验证删除功能：读取 docs/testing-guide.md，以它为来源，用 memory_write 新建临时记录 delete-probe，随后 memory_delete 删除这条临时活动记录，再 memory_search 搜索 delete-probe，确认返回零条。不要删除或修改 session-test-entry。
